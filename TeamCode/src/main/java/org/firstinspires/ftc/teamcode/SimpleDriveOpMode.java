@@ -12,8 +12,8 @@ public class SimpleDriveOpMode extends OpMode {
 
     @Override
     public void init() {
-        leftWheel = hardwareMap.dcMotor.get("Left_Wheel");
-        rightWheel = hardwareMap.dcMotor.get("Right_Motor");
+        leftWheel = hardwareMap.dcMotor.get("left_wheel");
+        rightWheel = hardwareMap.dcMotor.get("right_wheel");
 
         rightWheel.setDirection(DcMotor.Direction.REVERSE);
     }
